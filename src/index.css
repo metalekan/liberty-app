@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header li svg {
+  font-size: 21.5px;
+  color: #ffff;
+}
+
+header a {
+  color: #ffff;
+  font-size: 600;
+  font-size: 16px;
+}
+
+header li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.bxn:nth-last-child(2) {
+  height: 203px;
+}
+
+@media (max-width: 768px) {
+  .bxn:nth-last-child(2) {
+    height: 156px;
+  }
+}
+
